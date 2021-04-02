@@ -7,23 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2B1E78542617A23B005BEF56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1E78532617A23B005BEF56 /* AppDelegate.swift */; };
-		2B1E78562617A23B005BEF56 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1E78552617A23B005BEF56 /* SceneDelegate.swift */; };
 		2B1E78582617A23B005BEF56 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1E78572617A23B005BEF56 /* ContentView.swift */; };
 		2B1E785A2617A23D005BEF56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B1E78592617A23C005BEF56 /* Assets.xcassets */; };
 		2B1E785D2617A23D005BEF56 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B1E785C2617A23D005BEF56 /* Preview Assets.xcassets */; };
 		2B1E78602617A23D005BEF56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B1E785E2617A23D005BEF56 /* LaunchScreen.storyboard */; };
+		2B1E786A2617A264005BEF56 /* SpotifyiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B1E78692617A264005BEF56 /* SpotifyiOS.framework */; };
+		2B1E787C2617C4EC005BEF56 /* SpotifyQuickStart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1E787B2617C4EC005BEF56 /* SpotifyQuickStart.swift */; };
+		2B1E78802617C509005BEF56 /* SpotifyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1E787F2617C509005BEF56 /* SpotifyController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2B1E78502617A23B005BEF56 /* SpotifyQuickStart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpotifyQuickStart.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2B1E78532617A23B005BEF56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2B1E78552617A23B005BEF56 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2B1E78572617A23B005BEF56 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2B1E78592617A23C005BEF56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B1E785C2617A23D005BEF56 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2B1E785F2617A23D005BEF56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B1E78612617A23D005BEF56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B1E78692617A264005BEF56 /* SpotifyiOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyiOS.framework; sourceTree = "<group>"; };
+		2B1E786D2617A331005BEF56 /* SpotifyQuickStart-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpotifyQuickStart-Bridging-Header.h"; sourceTree = "<group>"; };
+		2B1E787B2617C4EC005BEF56 /* SpotifyQuickStart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpotifyQuickStart.swift; sourceTree = "<group>"; };
+		2B1E787F2617C509005BEF56 /* SpotifyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B1E786A2617A264005BEF56 /* SpotifyiOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +44,8 @@
 		2B1E78472617A23B005BEF56 = {
 			isa = PBXGroup;
 			children = (
+				2B1E786D2617A331005BEF56 /* SpotifyQuickStart-Bridging-Header.h */,
+				2B1E78682617A264005BEF56 /* Frameworks */,
 				2B1E78522617A23B005BEF56 /* SpotifyQuickStart */,
 				2B1E78512617A23B005BEF56 /* Products */,
 			);
@@ -56,13 +62,13 @@
 		2B1E78522617A23B005BEF56 /* SpotifyQuickStart */ = {
 			isa = PBXGroup;
 			children = (
-				2B1E78532617A23B005BEF56 /* AppDelegate.swift */,
-				2B1E78552617A23B005BEF56 /* SceneDelegate.swift */,
+				2B1E787B2617C4EC005BEF56 /* SpotifyQuickStart.swift */,
 				2B1E78572617A23B005BEF56 /* ContentView.swift */,
 				2B1E78592617A23C005BEF56 /* Assets.xcassets */,
 				2B1E785E2617A23D005BEF56 /* LaunchScreen.storyboard */,
 				2B1E78612617A23D005BEF56 /* Info.plist */,
 				2B1E785B2617A23D005BEF56 /* Preview Content */,
+				2B1E787F2617C509005BEF56 /* SpotifyController.swift */,
 			);
 			path = SpotifyQuickStart;
 			sourceTree = "<group>";
@@ -73,6 +79,14 @@
 				2B1E785C2617A23D005BEF56 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2B1E78682617A264005BEF56 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B1E78692617A264005BEF56 /* SpotifyiOS.framework */,
+			);
+			path = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,9 +159,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B1E78542617A23B005BEF56 /* AppDelegate.swift in Sources */,
-				2B1E78562617A23B005BEF56 /* SceneDelegate.swift in Sources */,
+				2B1E787C2617C4EC005BEF56 /* SpotifyQuickStart.swift in Sources */,
 				2B1E78582617A23B005BEF56 /* ContentView.swift in Sources */,
+				2B1E78802617C509005BEF56 /* SpotifyController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,13 +304,19 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SpotifyQuickStart/Preview Content\"";
 				DEVELOPMENT_TEAM = H267SUYVMM;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				INFOPLIST_FILE = SpotifyQuickStart/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = de.hainbach.SpotifyQuickStart;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SpotifyQuickStart-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -311,13 +331,19 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SpotifyQuickStart/Preview Content\"";
 				DEVELOPMENT_TEAM = H267SUYVMM;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				INFOPLIST_FILE = SpotifyQuickStart/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = de.hainbach.SpotifyQuickStart;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SpotifyQuickStart-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
