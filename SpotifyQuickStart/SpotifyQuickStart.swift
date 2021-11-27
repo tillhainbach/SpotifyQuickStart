@@ -9,7 +9,7 @@ import SwiftUI
 
 
 @main
-struct SpotiBookApp: App {
+struct SpotifyQuickStart: App {
     
     @StateObject var spotifyController = SpotifyController()
 
