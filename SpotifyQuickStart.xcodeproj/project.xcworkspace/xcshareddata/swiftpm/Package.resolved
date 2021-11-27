@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "SpotifyiOS",
+        "repositoryURL": "https://github.com/tillhainbach/ios-sdk",
+        "state": {
+          "branch": "add-spm-support",
+          "revision": "42756258c1f4234a235dc957222ad576a6fe160a",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

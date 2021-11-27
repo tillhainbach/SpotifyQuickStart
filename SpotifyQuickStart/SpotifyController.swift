@@ -6,10 +6,11 @@
 //
 
 import SwiftUI
+import SpotifyiOS
 import Combine
 
 class SpotifyController: NSObject, ObservableObject {
-    let spotifyClientID = "<#client id#>"
+    let spotifyClientID = "1234-client-id"
     let spotifyRedirectURL = URL(string:"spotify-ios-quick-start://spotify-login-callback")!
     
     var accessToken: String? = nil
@@ -106,7 +107,7 @@ extension SpotifyController: SPTAppRemoteDelegate {
 
 extension SpotifyController: SPTAppRemotePlayerStateDelegate {
     func playerStateDidChange(_ playerState: SPTAppRemotePlayerState) {
-        <#code#>
+        // noop
     }
     
 }
